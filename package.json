@@ -1,0 +1,13 @@
+{
+  "name": "logiscom-instituto",
+  "version": "1.0.0",
+  "description": "Plataforma web para LogisCOM - Instituto de Comercio Exterior y Gestion Logistica",
+  "main": "src/index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./dist/output.css --minify",
+    "dev": "tailwindcss -i ./src/styles.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
